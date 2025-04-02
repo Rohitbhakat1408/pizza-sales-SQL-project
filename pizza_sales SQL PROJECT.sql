@@ -18,6 +18,8 @@ pizza_id text not null,
 quantity int not null,
 primary key(order_details_id));
 
+-- tables pizza_types and pizzas were imported directly.
+
 -- (question 1 ) Retrive the total number of orders placed.
 
 select count(order_id) as total_orders from orders;
